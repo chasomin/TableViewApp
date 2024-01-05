@@ -14,6 +14,8 @@
 		79C6F0A12B480A65004B86ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C6F0A02B480A65004B86ED /* Assets.xcassets */; };
 		79C6F0A42B480A65004B86ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C6F0A22B480A65004B86ED /* LaunchScreen.storyboard */; };
 		79C6F0AE2B480D98004B86ED /* CaseTwoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0AD2B480D98004B86ED /* CaseTwoTableViewController.swift */; };
+		79C6F0B02B4810C4004B86ED /* CaseThreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */; };
+		79C6F0B22B4810F0004B86ED /* CaseThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		79C6F0A32B480A65004B86ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C6F0A52B480A65004B86ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C6F0AD2B480D98004B86ED /* CaseTwoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseTwoTableViewController.swift; sourceTree = "<group>"; };
+		79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewController.swift; sourceTree = "<group>"; };
+		79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				79C6F0A22B480A65004B86ED /* LaunchScreen.storyboard */,
 				79C6F0A52B480A65004B86ED /* Info.plist */,
 				79C6F0AD2B480D98004B86ED /* CaseTwoTableViewController.swift */,
+				79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */,
+				79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			files = (
 				79C6F0AE2B480D98004B86ED /* CaseTwoTableViewController.swift in Sources */,
 				79C6F09C2B480A64004B86ED /* ViewController.swift in Sources */,
+				79C6F0B02B4810C4004B86ED /* CaseThreeTableViewController.swift in Sources */,
 				79C6F0982B480A64004B86ED /* AppDelegate.swift in Sources */,
+				79C6F0B22B4810F0004B86ED /* CaseThreeTableViewCell.swift in Sources */,
 				79C6F09A2B480A64004B86ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
