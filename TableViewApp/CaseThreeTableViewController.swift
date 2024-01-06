@@ -13,9 +13,12 @@ class CaseThreeTableViewController: UITableViewController {
     @IBOutlet var shoppingListTextField: UITextField!
     @IBOutlet var addButton: UIButton!
     
-    var shoppingList = ["그립톡 구매하기", "사이다 구매하기", "아이패드 케이스 최저가 알아보기", "양말 구매하기"]
-
-
+    var shoppingList = ["그립톡 구매하기", "사이다 구매하기", "아이패드 케이스 최저가 알아보기", "양말 구매하기"] {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         backgroundView.layer.cornerRadius = 10
@@ -27,21 +30,35 @@ class CaseThreeTableViewController: UITableViewController {
         addButton.layer.cornerRadius = 10
         addButton.tintColor = .black
         addButton.backgroundColor = .systemGray5
+        
+        if shoppingListTextField.text == "" {
+            addButton.isEnabled = false
+        } else {
+            addButton.isEnabled = true
+
+        }
     }
 
     @IBAction func addButtonTapped(_ sender: UIButton) {
         
         shoppingList.append(shoppingListTextField.text!)
-        tableView.reloadData()
         shoppingListTextField.text = ""
+        addButton.isEnabled = false
         
     }
     
     @IBAction func keyboardDismiss(_ sender: UITextField) {
     }
     
+    @IBAction func userInput(_ sender: UITextField) {
+        if shoppingListTextField.text == "" {
+            addButton.isEnabled = false
+        } else {
+            addButton.isEnabled = true
+        }
+    }
+  
     
-
     
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -53,14 +70,12 @@ class CaseThreeTableViewController: UITableViewController {
         
         cell.roundedView.layer.cornerRadius = 10
         cell.roundedView.backgroundColor = .systemGray6
+       
+        //TODO: reload 할 때 체크 버튼 재사용됨 ㅜㅜ
+        // 버튼 상태 어떻게 저장하지.....
         
-        cell.checkButton.setTitle("", for: .normal)
-        if indexPath.row < 2 {
-            cell.checkButton.setImage(UIImage(systemName: "checkmark.square.fill"), for: .normal)
-        } else {
-            cell.checkButton.setImage(UIImage(systemName: "checkmark.square"), for: .normal)
-        }
-
+        
+        
         cell.todoLabel.text = shoppingList[indexPath.row]
         cell.todoLabel.font = .systemFont(ofSize: 13)
         
