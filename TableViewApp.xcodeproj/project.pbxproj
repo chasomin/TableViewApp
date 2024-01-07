@@ -16,6 +16,7 @@
 		79C6F0AE2B480D98004B86ED /* CaseTwoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0AD2B480D98004B86ED /* CaseTwoTableViewController.swift */; };
 		79C6F0B02B4810C4004B86ED /* CaseThreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */; };
 		79C6F0B22B4810F0004B86ED /* CaseThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */; };
+		79C6F0B62B4AE7A8004B86ED /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		79C6F0AD2B480D98004B86ED /* CaseTwoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseTwoTableViewController.swift; sourceTree = "<group>"; };
 		79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewController.swift; sourceTree = "<group>"; };
 		79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewCell.swift; sourceTree = "<group>"; };
+		79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				79C6F0AD2B480D98004B86ED /* CaseTwoTableViewController.swift */,
 				79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */,
 				79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */,
+				79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C6F0B62B4AE7A8004B86ED /* SettingTableViewController.swift in Sources */,
 				79C6F0AE2B480D98004B86ED /* CaseTwoTableViewController.swift in Sources */,
 				79C6F09C2B480A64004B86ED /* ViewController.swift in Sources */,
 				79C6F0B02B4810C4004B86ED /* CaseThreeTableViewController.swift in Sources */,
