@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79108FBC2B4BE5B700026B8D /* TravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79108FBB2B4BE5B700026B8D /* TravelTableViewController.swift */; };
+		79108FC02B4BE73600026B8D /* MagazineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79108FBF2B4BE73600026B8D /* MagazineInfo.swift */; };
+		79108FC22B4BE86500026B8D /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79108FC12B4BE86500026B8D /* TravelTableViewCell.swift */; };
+		79108FC52B4BE9CF00026B8D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 79108FC42B4BE9CF00026B8D /* Kingfisher */; };
 		79C6F0982B480A64004B86ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0972B480A64004B86ED /* AppDelegate.swift */; };
 		79C6F09A2B480A64004B86ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0992B480A64004B86ED /* SceneDelegate.swift */; };
 		79C6F09C2B480A64004B86ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F09B2B480A64004B86ED /* ViewController.swift */; };
@@ -17,9 +21,14 @@
 		79C6F0B02B4810C4004B86ED /* CaseThreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */; };
 		79C6F0B22B4810F0004B86ED /* CaseThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */; };
 		79C6F0B62B4AE7A8004B86ED /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */; };
+		79C6F0B82B4B05FF004B86ED /* InstaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */; };
+		79C6F0BA2B4B083A004B86ED /* InstaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B92B4B083A004B86ED /* InstaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79108FBB2B4BE5B700026B8D /* TravelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewController.swift; sourceTree = "<group>"; };
+		79108FBF2B4BE73600026B8D /* MagazineInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineInfo.swift; sourceTree = "<group>"; };
+		79108FC12B4BE86500026B8D /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
 		79C6F0942B480A64004B86ED /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C6F0972B480A64004B86ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79C6F0992B480A64004B86ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +41,8 @@
 		79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewController.swift; sourceTree = "<group>"; };
 		79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewCell.swift; sourceTree = "<group>"; };
 		79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTableViewController.swift; sourceTree = "<group>"; };
+		79C6F0B92B4B083A004B86ED /* InstaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79108FC52B4BE9CF00026B8D /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +87,11 @@
 				79C6F0AF2B4810C4004B86ED /* CaseThreeTableViewController.swift */,
 				79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */,
 				79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */,
+				79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */,
+				79C6F0B92B4B083A004B86ED /* InstaTableViewCell.swift */,
+				79108FBB2B4BE5B700026B8D /* TravelTableViewController.swift */,
+				79108FC12B4BE86500026B8D /* TravelTableViewCell.swift */,
+				79108FBF2B4BE73600026B8D /* MagazineInfo.swift */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";
@@ -95,6 +112,9 @@
 			dependencies = (
 			);
 			name = TableViewApp;
+			packageProductDependencies = (
+				79108FC42B4BE9CF00026B8D /* Kingfisher */,
+			);
 			productName = TableViewApp;
 			productReference = 79C6F0942B480A64004B86ED /* TableViewApp.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 79C6F08B2B480A64004B86ED;
+			packageReferences = (
+				79108FC32B4BE9CF00026B8D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 79C6F0952B480A64004B86ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79108FC02B4BE73600026B8D /* MagazineInfo.swift in Sources */,
+				79108FC22B4BE86500026B8D /* TravelTableViewCell.swift in Sources */,
 				79C6F0B62B4AE7A8004B86ED /* SettingTableViewController.swift in Sources */,
 				79C6F0AE2B480D98004B86ED /* CaseTwoTableViewController.swift in Sources */,
 				79C6F09C2B480A64004B86ED /* ViewController.swift in Sources */,
@@ -157,6 +182,9 @@
 				79C6F0982B480A64004B86ED /* AppDelegate.swift in Sources */,
 				79C6F0B22B4810F0004B86ED /* CaseThreeTableViewCell.swift in Sources */,
 				79C6F09A2B480A64004B86ED /* SceneDelegate.swift in Sources */,
+				79C6F0B82B4B05FF004B86ED /* InstaTableViewController.swift in Sources */,
+				79C6F0BA2B4B083A004B86ED /* InstaTableViewCell.swift in Sources */,
+				79108FBC2B4BE5B700026B8D /* TravelTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQNUU3X32C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -335,6 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQNUU3X32C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -377,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79108FC32B4BE9CF00026B8D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79108FC42B4BE9CF00026B8D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79108FC32B4BE9CF00026B8D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79C6F08C2B480A64004B86ED /* Project object */;
 }
