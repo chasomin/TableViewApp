@@ -45,11 +45,10 @@ class TravelTableViewController: UITableViewController {
         let date = format.date(from: magazine[indexPath.row].date) ?? Date()
         
         let formatTostring = DateFormatter()
-        formatTostring.dateFormat = "yy년 M월 d일"
+        formatTostring.dateFormat = "yy년 MM월 dd일"
         let result = formatTostring.string(from: date)
 
         cell.dateLabel.text = result
-        
         cell.dateLabel.font = .boldSystemFont(ofSize: 13)
         cell.dateLabel.textColor = .lightGray
 
