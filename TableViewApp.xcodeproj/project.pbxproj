@@ -57,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79108FC62B4BF5D000026B8D /* travel */ = {
+			isa = PBXGroup;
+			children = (
+				79108FBB2B4BE5B700026B8D /* TravelTableViewController.swift */,
+				79108FC12B4BE86500026B8D /* TravelTableViewCell.swift */,
+				79108FBF2B4BE73600026B8D /* MagazineInfo.swift */,
+			);
+			path = travel;
+			sourceTree = "<group>";
+		};
 		79C6F08B2B480A64004B86ED = {
 			isa = PBXGroup;
 			children = (
@@ -89,9 +99,7 @@
 				79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */,
 				79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */,
 				79C6F0B92B4B083A004B86ED /* InstaTableViewCell.swift */,
-				79108FBB2B4BE5B700026B8D /* TravelTableViewController.swift */,
-				79108FC12B4BE86500026B8D /* TravelTableViewCell.swift */,
-				79108FBF2B4BE73600026B8D /* MagazineInfo.swift */,
+				79108FC62B4BF5D000026B8D /* travel */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";

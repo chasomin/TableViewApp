@@ -424,7 +424,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kNl-HU-4Qn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3553.953488372093" y="2236.480686695279"/>
+            <point key="canvasLocation" x="973" y="4345"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qe7-jD-7zq">
@@ -914,7 +914,7 @@
                                                         <constraint firstAttribute="width" secondItem="Zwt-MB-eZj" secondAttribute="height" id="G1z-Hi-fRD"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="ellipsis" catalog="system"/>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -1032,7 +1032,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yxR-Bh-uGj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2655.3488372093025" y="2236.480686695279"/>
+            <point key="canvasLocation" x="45" y="4346"/>
         </scene>
     </scenes>
     <resources>
