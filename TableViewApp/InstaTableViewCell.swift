@@ -10,7 +10,6 @@ import UIKit
 class InstaTableViewCell: UITableViewCell {
 
     
-    @IBOutlet var contentImageView: UIImageView!
     
     
 }
