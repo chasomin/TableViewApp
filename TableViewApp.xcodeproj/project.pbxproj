@@ -23,7 +23,6 @@
 		79C6F0B22B4810F0004B86ED /* CaseThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */; };
 		79C6F0B62B4AE7A8004B86ED /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */; };
 		79C6F0B82B4B05FF004B86ED /* InstaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */; };
-		79C6F0BA2B4B083A004B86ED /* InstaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B92B4B083A004B86ED /* InstaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 		79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewCell.swift; sourceTree = "<group>"; };
 		79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTableViewController.swift; sourceTree = "<group>"; };
-		79C6F0B92B4B083A004B86ED /* InstaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 				79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */,
 				79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */,
 				79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */,
-				79C6F0B92B4B083A004B86ED /* InstaTableViewCell.swift */,
 				791EC2072B4D882500B31565 /* StoryCollectionViewCell.swift */,
 				79108FC62B4BF5D000026B8D /* travel */,
 			);
@@ -195,7 +192,6 @@
 				791EC2082B4D882500B31565 /* StoryCollectionViewCell.swift in Sources */,
 				79C6F09A2B480A64004B86ED /* SceneDelegate.swift in Sources */,
 				79C6F0B82B4B05FF004B86ED /* InstaTableViewController.swift in Sources */,
-				79C6F0BA2B4B083A004B86ED /* InstaTableViewCell.swift in Sources */,
 				79108FBC2B4BE5B700026B8D /* TravelTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

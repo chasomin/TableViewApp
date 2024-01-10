@@ -44,7 +44,7 @@ class InstaTableViewController: UITableViewController, UICollectionViewDelegate,
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "InstaTableViewCell", for: indexPath) as! InstaTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "InstaTableViewCell", for: indexPath)
         return cell
     }
     
@@ -59,9 +59,8 @@ class InstaTableViewController: UITableViewController, UICollectionViewDelegate,
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = storyCollectionView.dequeueReusableCell(withReuseIdentifier: "StoryCollectionViewCell", for: indexPath) as! StoryCollectionViewCell
         
-        cell.imageView.kf.setImage(with: URL(string: storyImages[indexPath.item]))
-        cell.imageView.contentMode = .scaleAspectFill
-        cell.imageView.layer.cornerRadius = ((UIScreen.main.bounds.width - 40) / 4) / 2
+        cell.configureCell(data: storyImages[indexPath.item])
+
         return cell
     }
 }

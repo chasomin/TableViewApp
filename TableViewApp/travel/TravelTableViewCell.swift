@@ -37,7 +37,9 @@ class TravelTableViewCell: UITableViewCell {
         dateLabel.font = .boldSystemFont(ofSize: 13)
         dateLabel.textColor = .lightGray
     }
-    
+}
+
+extension TravelTableViewCell {
     func configureCell(data: Magazine) {
         magazineImageView.kf.setImage(with: URL(string: data.photo_image))
         
@@ -48,8 +50,6 @@ class TravelTableViewCell: UITableViewCell {
         let date = format.date(from: data.date) ?? Date()
         let result = formatTostring.string(from: date)
         dateLabel.text = result
-
-        
         
     }
 }

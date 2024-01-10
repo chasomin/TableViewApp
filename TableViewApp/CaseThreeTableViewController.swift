@@ -81,25 +81,14 @@ class CaseThreeTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CaseThreeTableViewCell", for: indexPath) as! CaseThreeTableViewCell
         
-        
-        cell.roundedView.layer.cornerRadius = 10
-        cell.roundedView.backgroundColor = .systemGray6
-        
-        
-        cell.todoLabel.text = shoppingList[indexPath.row].item
-        cell.todoLabel.font = .systemFont(ofSize: 13)
+        cell.configureCell(data: shoppingList[indexPath.row])
         
         cell.favoriteButton.tag = indexPath.row
         cell.favoriteButton.addTarget(self, action: #selector(favoriteButtonClicked), for: .touchUpInside)
-        let favoriteImage = shoppingList[indexPath.row].favorite ? "star.fill" : "star"
-        cell.favoriteButton.setImage(UIImage(systemName: favoriteImage), for: .normal)
         
         cell.checkButton.tag = indexPath.row
-
         cell.checkButton.addTarget(self, action: #selector(checkButtonClicked), for: .touchUpInside)
-        let checkImage = shoppingList[indexPath.row].check ? "checkmark.square.fill" : "checkmark.square"
-        cell.checkButton.setImage(UIImage(systemName: checkImage), for: .normal)
-
+        
         return cell
     }
 
@@ -128,27 +117,4 @@ class CaseThreeTableViewController: UITableViewController {
 }
 
 
-//@propertyWrapper
-//struct UserDefaultWrapper<T> {
-//    private let key: String
-//    private let defaultValue: T
-//
-//    init(key: String, defaultValue: T) {
-//        self.key = key
-//        self.defaultValue = defaultValue
-//    }
-//
-//    var wrappedValue: T {
-//        get {
-//            return UserDefaults.standard.object(forKey: key) as? T ?? defaultValue
-//        }
-//        set {
-//            UserDefaults.standard.set(newValue, forKey: key)
-//        }
-//    }
-//}
-//
-//extension UserDefaults {
-//    @UserDefaultWrapper(key: "todo", defaultValue: "")
-//    static var todo: String
-//}
+

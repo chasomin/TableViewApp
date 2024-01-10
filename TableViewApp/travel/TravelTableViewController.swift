@@ -16,7 +16,6 @@ class TravelTableViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.rowHeight = 500
-
     }
     
     
