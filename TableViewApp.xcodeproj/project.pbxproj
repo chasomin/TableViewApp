@@ -24,6 +24,9 @@
 		79C6F0B22B4810F0004B86ED /* CaseThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */; };
 		79C6F0B62B4AE7A8004B86ED /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */; };
 		79C6F0B82B4B05FF004B86ED /* InstaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */; };
+		79F9BB612B550C9000D27A79 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9BB602B550C9000D27A79 /* WebViewController.swift */; };
+		79F9BB632B550DBA00D27A79 /* IdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9BB622B550DBA00D27A79 /* IdentifierProtocol.swift */; };
+		79F9BB652B550E5000D27A79 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F9BB642B550E5000D27A79 /* Web.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		79C6F0B12B4810F0004B86ED /* CaseThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseThreeTableViewCell.swift; sourceTree = "<group>"; };
 		79C6F0B52B4AE7A8004B86ED /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTableViewController.swift; sourceTree = "<group>"; };
+		79F9BB602B550C9000D27A79 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		79F9BB622B550DBA00D27A79 /* IdentifierProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierProtocol.swift; sourceTree = "<group>"; };
+		79F9BB642B550E5000D27A79 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 				79108FC12B4BE86500026B8D /* TravelTableViewCell.swift */,
 				79108FBF2B4BE73600026B8D /* MagazineInfo.swift */,
 				791EC21F2B4E926D00B31565 /* Travel.storyboard */,
+				79F9BB622B550DBA00D27A79 /* IdentifierProtocol.swift */,
 			);
 			path = travel;
 			sourceTree = "<group>";
@@ -103,8 +110,18 @@
 				79C6F0B72B4B05FF004B86ED /* InstaTableViewController.swift */,
 				791EC2072B4D882500B31565 /* StoryCollectionViewCell.swift */,
 				79108FC62B4BF5D000026B8D /* travel */,
+				79F9BB5F2B550C7000D27A79 /* Web */,
 			);
 			path = TableViewApp;
+			sourceTree = "<group>";
+		};
+		79F9BB5F2B550C7000D27A79 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				79F9BB602B550C9000D27A79 /* WebViewController.swift */,
+				79F9BB642B550E5000D27A79 /* Web.storyboard */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +190,7 @@
 			files = (
 				79C6F0A42B480A65004B86ED /* LaunchScreen.storyboard in Resources */,
 				79C6F0A12B480A65004B86ED /* Assets.xcassets in Resources */,
+				79F9BB652B550E5000D27A79 /* Web.storyboard in Resources */,
 				791EC2202B4E926D00B31565 /* Travel.storyboard in Resources */,
 				79C6F09F2B480A64004B86ED /* Main.storyboard in Resources */,
 			);
@@ -185,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F9BB632B550DBA00D27A79 /* IdentifierProtocol.swift in Sources */,
 				79108FC02B4BE73600026B8D /* MagazineInfo.swift in Sources */,
 				79108FC22B4BE86500026B8D /* TravelTableViewCell.swift in Sources */,
 				79C6F0B62B4AE7A8004B86ED /* SettingTableViewController.swift in Sources */,
@@ -196,6 +215,7 @@
 				791EC2082B4D882500B31565 /* StoryCollectionViewCell.swift in Sources */,
 				79C6F09A2B480A64004B86ED /* SceneDelegate.swift in Sources */,
 				79C6F0B82B4B05FF004B86ED /* InstaTableViewController.swift in Sources */,
+				79F9BB612B550C9000D27A79 /* WebViewController.swift in Sources */,
 				79108FBC2B4BE5B700026B8D /* TravelTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,21 +21,7 @@ class TravelTableViewCell: UITableViewCell {
     let formatTostring = DateFormatter()
 
     override func awakeFromNib() {
-        magazineImageView.contentMode = .scaleAspectFill
-        magazineImageView.layer.cornerRadius = 10
-        
-        titleLabel.font = .boldSystemFont(ofSize: 21)
-        titleLabel.numberOfLines = 0
-        
-        subtitleLabel.font = .boldSystemFont(ofSize: 15)
-        subtitleLabel.textColor = .lightGray
-
-        
-        format.dateFormat = "yyMMdd"
-        formatTostring.dateFormat = "yy년 MM월 dd일"
-        
-        dateLabel.font = .boldSystemFont(ofSize: 13)
-        dateLabel.textColor = .lightGray
+        designCell()
     }
 }
 
@@ -51,5 +37,25 @@ extension TravelTableViewCell {
         let result = formatTostring.string(from: date)
         dateLabel.text = result
         
+    }
+    
+    func designCell() {
+        magazineImageView.contentMode = .scaleAspectFill
+        magazineImageView.layer.cornerRadius = 10
+        
+        titleLabel.font = .boldSystemFont(ofSize: 21)
+        titleLabel.numberOfLines = 0
+        
+        subtitleLabel.font = .boldSystemFont(ofSize: 15)
+        subtitleLabel.textColor = .lightGray
+
+        
+        format.dateFormat = "yyMMdd"
+        formatTostring.dateFormat = "yy년 MM월 dd일"
+        
+        dateLabel.font = .boldSystemFont(ofSize: 13)
+        dateLabel.textColor = .lightGray
+        
+        selectionStyle = .none
     }
 }
