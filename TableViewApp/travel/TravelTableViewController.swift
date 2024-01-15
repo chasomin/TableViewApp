@@ -9,7 +9,7 @@ import UIKit
 import Kingfisher
 
 class TravelTableViewController: UITableViewController {
-    
+    let magazine = MagazineInfo.magazine
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,13 +18,13 @@ class TravelTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        MagazineInfo.magazine.count
+        magazine.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: TravelTableViewCell.id, for: indexPath) as! TravelTableViewCell
 
-        cell.configureCell(data: MagazineInfo.magazine[indexPath.row])
+        cell.configureCell(data: magazine[indexPath.row])
         
         return cell
     }
@@ -34,7 +34,7 @@ class TravelTableViewController: UITableViewController {
         
         let vc = sv.instantiateViewController(identifier: WebViewController.id) as! WebViewController
         
-        vc.url = MagazineInfo.magazine[indexPath.row].link
+        vc.url = magazine[indexPath.row].link
         
         navigationController?.pushViewController(vc, animated: true)
     }
